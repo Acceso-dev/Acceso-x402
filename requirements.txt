@@ -1,0 +1,30 @@
+# Acceso x402 - Solana Payment Protocol
+# Python 3.10+
+
+# Web Framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.3
+pydantic-settings==2.7.0
+
+# Solana
+solana==0.35.0
+solders==0.21.0
+anchorpy==0.20.1
+
+# HTTP Client
+httpx==0.28.1
+aiohttp==3.11.11
+
+# Crypto
+base58==2.1.1
+pynacl==1.5.0
+
+# Utils
+python-dotenv==1.0.1
+structlog==24.4.0
+orjson==3.10.12
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.24.0
